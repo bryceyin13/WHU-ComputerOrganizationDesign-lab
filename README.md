@@ -22,6 +22,6 @@
 <br>
 **直接拨快clk看到的PC地址是类似于一个“98”的显示结果，不过仔细看会发现有的数码管会更亮，有的更暗，是因为4e-51这四个数高速循环显示（原因如上一段），亮的地方是这四个数都要亮的数码管，暗的地方是这几个数字中有的要亮，有的不要亮的数码管。**<br>
 ## 完整的流水线CPU
-完整流水线CPU就是在第二个任务的基础上加了**四个检测冒险的模块**，并不复杂。对应的汇编程序是求斐波那契数列，他给的汇编程序里面有几条的顺序需要改一下，具体哪几条又因为笔者羸弱的记忆功能导致没印象，有兴趣探索的话可以到[这个文件里面](https://github.com/bryceyin13/WHU-ComputerOrganizationDesign-lab/blob/main/Final_Pipeline/IMem.v)找到的汇编代码和老师给出的[这个文件](https://github.com/bryceyin13/WHU-ComputerOrganizationDesign-lab/blob/main/Task/Task1%20%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F%E4%B8%8E%E9%AA%8C%E8%AF%81%E7%A8%8B%E5%BA%8F%E8%AF%BE%E5%A0%82%E7%94%A8.pdf)里面的第三个程序的汇编代码对照，不过介于老师应该也不会问相关的内容，不看的话应该也是可以的（多说一句，这里不知道是他故意的还是不小心的，反正笔者当时按那个汇编代码在纸上模拟了几遍过程才找出来问题。。。）。**这个程序的计算结果是15（16进制的21），PC地址也是几个值在一直循环，和第二个任务的原理相同，就不多解释了。**
+完整流水线CPU就是在第二个任务的基础上加了**四个检测冒险的模块**，并不复杂。对应的汇编程序是求斐波那契数列，老师给的汇编程序里面有几条的顺序需要改一下，具体哪几条又因为笔者羸弱的记忆功能导致没印象，有兴趣探索的话可以到[这个文件里面](https://github.com/bryceyin13/WHU-ComputerOrganizationDesign-lab/blob/main/Final_Pipeline/IMem.v)找到的汇编代码和老师给出的[这个文件](https://github.com/bryceyin13/WHU-ComputerOrganizationDesign-lab/blob/main/Task/Task1%20%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F%E4%B8%8E%E9%AA%8C%E8%AF%81%E7%A8%8B%E5%BA%8F%E8%AF%BE%E5%A0%82%E7%94%A8.pdf)里面的第三个程序的汇编代码对照，不过介于老师基本不会问相关的问题，不看的话应该也是可以的。**这个程序的计算结果是15（16进制的21），PC地址也是几个值在一直循环，和第二个任务的原理相同，就不多解释了。**
 ## 结尾
 最后留个联系方式，qq2766572117，有问题欢迎大家来问我/对其中的内容进行订正。
